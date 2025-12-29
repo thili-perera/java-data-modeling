@@ -8,7 +8,7 @@ This project demonstrates building simple REST APIs using Spring Boot with contr
 
 ## Endpoints
 
-### Endpoints => Department
+### Department Endpoints
 
 - POST `/departments`
 	→ {
@@ -30,7 +30,7 @@ This project demonstrates building simple REST APIs using Spring Boot with contr
 	}
 - DELETE `/departments/1` → "Delete Successfully"
 
-### Endpoints => User
+### User Endpoints
   
 - POST `/users`
 	→ {
@@ -68,5 +68,5 @@ This project demonstrates building simple REST APIs using Spring Boot with contr
 	    "phone_number": "0767585568",
 	    "dob": "1997-01-06"
 	}
-- DELETE `/users/1` → "true"
+- DELETE `/users/1` → true
 
