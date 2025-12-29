@@ -8,6 +8,8 @@ This project demonstrates building simple REST APIs using Spring Boot with contr
 
 ## Endpoints
 
+### Endpoints => Department
+
 - POST `/departments`
 	→ {
 		"name": "Finance - Department",
@@ -27,5 +29,8 @@ This project demonstrates building simple REST APIs using Spring Boot with contr
 	  	"address": "Kalutara"
 	}
 - DELETE `/departments/4` → "Delete Successfully"
+
+  ### Endpoints => User
+  
 - GET `/greet?name=John` → "Hello John, welcome!"
 - GET `/message` → "ආයුබෝවන්!" (@Primary used)
