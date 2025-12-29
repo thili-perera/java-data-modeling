@@ -13,7 +13,14 @@ This project demonstrates building simple REST APIs using Spring Boot with contr
 		"name": "Finance - Department",
 	  "address": "Panadura"
 	}
-- GET `/add?a=10&b=5` → 15
+- GET `/departments`
+  	→ [
+    {
+        "id": 1,
+        "name": "Finance - Department",
+        "address": "Panadura"
+    }
+]
 - GET `/subtract?a=10&b=5` → 5
 - GET `/multiply?a=10&b=5` → 50
 - GET `/greet?name=John` → "Hello John, welcome!"
