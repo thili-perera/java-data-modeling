@@ -9,10 +9,10 @@ This project demonstrates building simple REST APIs using Spring Boot with contr
 ## Endpoints
 
 - POST `/departments`
-- → {
-	"name": "Finance - Department",
-  "address": "Panadura"
-}
+	→ {
+		"name": "Finance - Department",
+	  "address": "Panadura"
+	}
 - GET `/add?a=10&b=5` → 15
 - GET `/subtract?a=10&b=5` → 5
 - GET `/multiply?a=10&b=5` → 50
