@@ -13,7 +13,7 @@ This project demonstrates building simple REST APIs using Spring Boot with contr
 - POST `/departments`
 	→ {
 		"name": "Finance - Department",
-	  "address": "Panadura"
+	  	"address": "Panadura"
 	}
 - GET `/departments`
   	→ [
@@ -28,9 +28,45 @@ This project demonstrates building simple REST APIs using Spring Boot with contr
 		"name": "Finance - Department",
 	  	"address": "Kalutara"
 	}
-- DELETE `/departments/4` → "Delete Successfully"
+- DELETE `/departments/1` → "Delete Successfully"
 
-  ### Endpoints => User
+### Endpoints => User
   
-- GET `/greet?name=John` → "Hello John, welcome!"
-- GET `/message` → "ආයුබෝවන්!" (@Primary used)
+- POST `/users`
+	→ {
+	    "first_name": "Thilini",
+	    "last_name": "Perera",
+	    "email": "thili@abc.com",
+	    "phone_number": "0767585568",
+	    "dob": "1997-01-06"
+	}
+- GET `/users`
+  	→ [
+    {
+        "id": 1,
+        "first_name": "Thilini",
+        "last_name": "Perera",
+        "email": "thili@abc.com",
+        "phone_number": "0767585568",
+        "dob": "1997-01-06"
+    }
+]
+- GET `/users/1`
+	→ {
+	    "id": 1,
+	    "first_name": "Thilini",
+	    "last_name": "Perera",
+	    "email": "thili@abc.com",
+	    "phone_number": "0767585568",
+	    "dob": "1997-01-06"
+	}
+- PUT `/users/1`
+  	→ {
+	    "first_name": "Thilini",
+	    "last_name": "Fernando",
+	    "email": "thili@abc.com",
+	    "phone_number": "0767585568",
+	    "dob": "1997-01-06"
+	}
+- DELETE `/users/1` → "true"
+
