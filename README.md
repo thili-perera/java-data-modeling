@@ -21,7 +21,11 @@ This project demonstrates building simple REST APIs using Spring Boot with contr
         "address": "Panadura"
     }
 ]
-- GET `/subtract?a=10&b=5` → 5
-- GET `/multiply?a=10&b=5` → 50
+- PUT `/departments/1`
+  	→ {
+		"name": "Finance - Department",
+	  	"address": "Kalutara"
+	}
+- DELETE `/departments/4` → "Delete Successfully"
 - GET `/greet?name=John` → "Hello John, welcome!"
 - GET `/message` → "ආයුබෝවන්!" (@Primary used)
