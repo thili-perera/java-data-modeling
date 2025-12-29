@@ -1,6 +1,6 @@
 # Spring Boot Assignment - Controllers & Services
 
-This project demonstrates building simple REST APIs using Spring Boot with controllers, services, and dependency injection
+This is a simple **Spring Boot** application demonstrating RESTful CRUD operations with **controllers**, **services**, and **dependency injection**. The project implements two entities: **User** and **Department**, using in-memory storage.
 
 ## Setup
 1. Clone the repo
